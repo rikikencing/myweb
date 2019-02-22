@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ihemm</title>
+</head>
+<body>
+
+    <h1><marquee direction="right">S e l a m a t d a t a n g d i b l o g s</marquee></h1>
+    {% include "menu.html" %}
+    <p>A s s a l a m u a l a i k u m    w r , w b</p>
+                
+{%if True%}
+<h1><h1>If bernilai false,maka tidak ada ngapung:(</i></h1> 
+{% endif %}
+
+    {{nama | lower}}
+    
+    {% for family in keluarga %}
+    <li>{{family}}</li>
+    {% endfor %}
+
+</body>
+</html>
